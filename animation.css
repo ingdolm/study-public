@@ -1,3 +1,18 @@
-* {background-color: teal;
+:root {
+    --background-color : #dae7f0;
+    --font-color : #374955;
+    --cloud-color : #95B2C6;
+
+}
+* {background-color: var(--background-color);
     margin: 0;
-    padding: 0;;}
+    padding: 0;}
+h1 {
+    color: var(--font-color);
+}
+.bg {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 10px solid var(--cloud-color);
+}
