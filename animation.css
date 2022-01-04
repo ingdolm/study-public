@@ -16,3 +16,6 @@ h1 {
     height: 100px;
     border: 10px solid var(--cloud-color);
 }
+.box {
+    border: 1px solid red;
+}
