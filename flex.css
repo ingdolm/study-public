@@ -13,8 +13,7 @@
     align-items: flex-start;
     align-content: center;
 }
-#flex-container > div,
-#flex-container2 > div {
+#flex-container > div {
     width: 100px;
     height: 100px;
 }
@@ -32,4 +31,20 @@
 }
 .flex-item5 {
     background-color: plum;
+}
+#nav {
+    margin-top: 50px;
+    width: 500px;
+    height: 200px;
+    border: 1px dotted orange;
+    position: relative;
+}
+#nav > ul {
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+#nav li {
+    background-color: yellow;
 }
