@@ -2,22 +2,26 @@
     margin: 0;
     padding: 0;
 }
-#flex-container {
-    width: 800px;
-    height: 800px;
+#flex-container,
+#flex-container2 {
+    /* width: 1000px;
+    height: 800px; */
     border: 1px solid #3b3b3b;
     display: flex;
     flex-flow: wrap row;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
+    align-content: center;
 }
-#flex-container > div {
+#flex-container > div,
+#flex-container2 > div {
     width: 100px;
     height: 100px;
 }
 .flex-item1 {
     background-color: aquamarine;
-    /* flex-grow: 1; */
+    flex-grow: 1;
+    flex-shrink: 2;
 }
 .flex-item2 {
     background-color: olivedrab;
