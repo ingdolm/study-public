@@ -20,12 +20,9 @@
 }
 .flex-item1 {
     background-color: aquamarine;
-    flex-grow: 1;
-    flex-shrink: 2;
 }
 .flex-item2 {
     background-color: olivedrab;
-    /* flex-grow: 2; */
 }
 .flex-item3 {
     background-color: salmon;
