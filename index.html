@@ -1,24 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>webpage renewal</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap'); </style>
 </head>
 <body>
-    <h1>TEST</h1>
-    <ol>
-        <li>html</li>
-        <li>css</li>
-        <li>js</li>
-    </ol>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, sed? Obcaecati vitae saepe hic dolore voluptas reiciendis, at fugiat assumenda.</p>
-    
-    <div>
-        <p>
-            깃허브를 배우는 중입니다.
-        </p>
-    </div>
+    <header>
+        <div class="header_top1">
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li><a href="#">주문배송</a></li>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">커뮤니티</a></li>
+            </ul>
+        </div>
+        <!-- header_top1 end -->
+        <div class="header_top2">
+            <div class="header_sec1">
+                <h1 class="logo">
+                    <a href="#">REFURBMOA</a>
+                </h1>
+                <div class="header_menu">
+                    <a class="search" href="#"><?xml version="1.0" ?><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M13,2C6.935,2,2,6.935,2,13s4.935,11,11,11s11-4.935,11-11S19.065,2,13,2z M13,22c-4.962,0-9-4.037-9-9   c0-4.962,4.038-9,9-9c4.963,0,9,4.038,9,9C22,17.963,17.963,22,13,22z"/><path d="M29.707,28.293l-6.001-6c-0.391-0.391-1.023-0.391-1.414,0s-0.391,1.023,0,1.414l6.001,6C28.488,29.902,28.744,30,29,30   s0.512-0.098,0.707-0.293C30.098,29.316,30.098,28.684,29.707,28.293z"/></g></svg></a>
+                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16"><path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/></svg></a>
+                    <a href="#"><?xml version="1.0" ?><svg enable-background="new 0 0 32 32" height="32px" id="Layer_1" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M21.947,16.332C23.219,14.915,24,13.049,24,11c0-4.411-3.589-8-8-8s-8,3.589-8,8s3.589,8,8,8  c1.555,0,3.003-0.453,4.233-1.224c4.35,1.639,7.345,5.62,7.726,10.224H4.042c0.259-3.099,1.713-5.989,4.078-8.051  c0.417-0.363,0.46-0.994,0.097-1.411c-0.362-0.416-0.994-0.46-1.411-0.097C3.751,21.103,2,24.951,2,29c0,0.553,0.448,1,1,1h26  c0.553,0,1-0.447,1-1C30,23.514,26.82,18.615,21.947,16.332z M10,11c0-3.309,2.691-6,6-6s6,2.691,6,6s-2.691,6-6,6S10,14.309,10,11z  "/></svg></a>
+                </div>
+            </div>
+            <div class="header_sec2">
+                <div class="menu_all">
+                    <a href="#"><i class="fa-solid fa-bars fa-2xl"></i></a>
+                </div>
+                <nav class="menu_list">
+                    <ul>
+                        <li><a href="#">연말결산 빅세일</a></li>
+                        <li><a href="#">유통기한 임박특가</a></li>
+                        <li><a href="#">판매예정</a></li>
+                        <li><a href="#">착한소비 리퍼폰</a></li>
+                        <li><a href="#">회원전용특가</a></li>
+                        <li><a href="#">반값할인</a></li>
+                        <li><a href="#">오늘의 입고상품</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- header_top2 end -->
+    </header>
+    <section>
+        <div class="content1">
+            <h1>리본굿즈</h1>
+            <div>리퍼브모아(REPURBMOA)는 (주)리본굿즈에서 운영하는 리퍼비쉬 상품 전문 쇼핑몰입니다. 우리나라에서는 아직 익숙하지 않은 리퍼 제품을 온라인 세일즈를 통해 한국의 리퍼 시장을 선도하고 있습니다.
+            </div>
+        </div>
+        <div class="content2">
+            <h1>합리적인 소비 생활을 지향</h1>
+            <div>'고객중심'의 가치를 바탕으로 다양한 파트너들과 함께 온라인 중심의 유통 플랫폼으로 성장해가는 저희 리본굿즈가 상품의 상태에 따른 합리적인 가격을 제안하여 소비자들의 합리적인 소비 생활을 위해 노력하겠습니다.</div>
+        </div>
+        <div class="content3">
+            <h1>친화적 운영</h1>
+            <div>리퍼상품의 대중화에 소비자분들과 함께 하여 보다 많은 사람들이 다양한 디지털문화를 부담없이 즐길 수 있도록 노력하며, 과도한 경쟁에 따라 과잉 생산된 제품들이 의미없이 버려지는 것을 막아 환경 보호에도 기여해 나가겠습니다.</div>
+        </div>
+        <div class="content4">
+            <h1>리퍼브(REFURB)?</h1>
+            <h4 class="dictionary">판매장에 전시되었거나, 고장 또는 흠이 있어 소비자가 반품한 것을 다시 고치고 손질하여 소비자에게 정품보다 싸게 파는 일. 또는 그런 상품.</h3>
+            <div>요즘 추세로 떠오르는 리퍼브라는 단어! 혹시 들어보셨나요? 해외에서는 리퍼비쉬 제품도 유통의 한 형태로 존재합니다.
+            '리퍼브모아'에서 구매하여 재판매하는 리퍼브 제품은 온라인 유통, 브랜드 본사, 개인 등 다양한 구매처를 통해 직접 구매하고 제품을 검수하여 등급을 부여하고 거기에 적당한 가치를 부여하여 재판매합니다. 상품에 대한 별도의 개조, 개량을 진행하지 않은 오리지널 상품이며, 포장과 상품에 다소 손상이 있는 제품입니다.
+            검수 과정에서 발생하는 실수로 인해 고객에게 상품의 하자에 대한 고지 없이 할인이 적용되지 않은 채 판매한 제품은 교환 또는 환불이 가능합니다.</div>
+        </div>
+        <div class="content5">
+            <h1>A/S정책</h1>
+            <div>당사는 제조사가 아니므로 간단한 불량을 제외하고 전문적인 A/S는 직접 해 드릴 수는 없습니다. 그러나 당사에서 구매한 상품이 사용에 하자가 있는 불량이 있을 경우, 제조사와 관계없이 판매자인 당사가 구매 금액을 환불하여 드리나 안심하고 구매하시면 됩니다. 또한 제조사의 A/S정책에 따라 제조사로부터 직접 상품 A/S를 진행하실 수도 있습니다.</div>
+        </div>
+        <div class="content6">
+            <h1>자체개발 물류 ERP</h1>
+            <div>'리본굿즈'는 자체개발 물류ERP 시스템을 통해 온·오프라인 동시 판매가 가능하도록 설계되어있습닏. 온라인에서는 매장을 배송과 픽업의 거점으로 활용하여 더 많은 상품들을 소비자에게 제공하며, 오프라인에서는 빠른 회전을 통해 새로운 상품들을ㅇ 소비자에게 제공하는 선순환 구조를 만듭니다.</div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_sec1">
+            <div class="ft_cs">
+                <h5>고객센터</h5>
+                <h2>070.4866.1568</h2>
+                <ul>
+                    <li>오전 10시 - 오후 5시 (토, 일, 공휴일 휴무)</li>
+                    <li>휴식시간 : 오후 12시 - 오후 1시 / 오후 4시 - 오후 4시 10분</li>
+                    <li>
+                        <a>1:1문의 바로가기</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ft_bank">
+                <h5>입금계좌</h5>
+                <ul class="bank_list">
+                    <li>예금주</li>
+                    <li>국민</li>
+                    <li>기업</li>
+                    <li>농협</li>
+                    <li>신한</li>
+                    <li>하나</li>
+                </ul>
+                <ul class="bank_num">
+                    <li>주식회사리본굿즈</li>
+                    <li>669702-07-012345</li>
+                    <li>660-543210-01-012</li>
+                    <li>103-5479-1324-16</li>
+                    <li>100-786-543210</li>
+                    <li>987-876543-43210</li>
+                </ul>
+            </div>
+            <div class="sns">
+                <h5>SNS</h5>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-square-instagram"></i></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-blogger"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_sec2">
+            <div class="ft_menu">
+                <ul>
+                    <li><a href="#">홈</a></li>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">이용안내</a></li>
+                    <li><a href="#">입점/제휴 파트너십</a></li>
+                </ul>
+            </div>
+            <div class="ft_info">
+                <p class="info">주식회사 리본굿즈 &#5; 대표자 : 이원경 &#5; 사업자등록번호 : 188-86-01680 [사업자정보확인] &#5; 통신판매업신고번호 : 제 2020-용인기흥-0866호 <br> TEL: 070.4866.1568 &#5; E MAIL : refurbmoa@naver.com &#5; 주소 : 16229 경기도 수원시 영통구 광교로 107 (이의동) 보육동 106호 &#5; 개인정보관리책임자 : 이원경</p>
+                <p class="copyrignt">&#9400; 리퍼브모아 All rights reserved. renewal ing_dolm@naver.com</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
